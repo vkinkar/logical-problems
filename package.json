@@ -1,7 +1,7 @@
 {
   "name": "logical-problems",
   "version": "0.1.0",
-  "homepage": "https://vkinkar.github.io/development",
+  "homepage": "https://vkinkar.github.io/logical-problems",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.3",
