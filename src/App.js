@@ -1,41 +1,34 @@
-import logo from "./logo.svg";
 import "./App.css";
 import styled from "styled-components";
-import Button from "@mui/material/Button";
-import Stack from "@mui/material/Stack";
+import { HashRouter, Route, Routes } from "react-router-dom";
+import CategoryDashboard from './layouts/CategoryDashboard';
+import ReactDashboard from './layouts/ReactDashboard';
+import JavaScriptDashboard from './layouts/JavaScriptDashboard';
 
-const Wrapper = styled.section`
-  padding: 1em;
-  background: #0d5664;
+const Wrapper = styled.header`
+  padding:0 1em;
+  border-bottom: 2px solid rgb(206 228 237);  
 `;
 
 const Title = styled.h1`
   font-size: 1.5em;
-  text-align: center;
-  color: #fff;
+  text-align: left;
+  color: #9B1D30;
 `;
 
 function App() {
   return (
     <div className="App">
       <Wrapper>
-        <Title>Logical Problems Respository</Title>
+        <Title>Logical Problems Repository</Title>
       </Wrapper>
-      <Stack
-        direction="row"
-        spacing={2}
-        sx={{
-          justifyContent: "center",
-          alignItems: "center",
-          marginTop: "20px",
-        }}
-      >
-        <Button variant="contained">Tic Tac Toe</Button>
-        <Button variant="contained">Matrix</Button>
-        <Button variant="contained" href="#contained-buttons">
-          Memory Game
-        </Button>
-      </Stack>
+      <HashRouter >
+        <Routes>
+          <Route exact path="/" element={<CategoryDashboard />} />
+          <Route exact path="/react-js" element={<ReactDashboard />} />
+          <Route exact path="/javascript" element={<JavaScriptDashboard />} />
+        </Routes>
+      </HashRouter>
     </div>
   );
 }
