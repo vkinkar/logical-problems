@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/logical-problems/static/css/main.f855e6bc.css",
-    "main.js": "/logical-problems/static/js/main.13763c06.js",
-    "static/js/453.9766625e.chunk.js": "/logical-problems/static/js/453.9766625e.chunk.js",
-    "static/media/logo.svg": "/logical-problems/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/logical-problems/static/css/main.9a726398.css",
+    "main.js": "/logical-problems/static/js/main.bbefad69.js",
+    "static/js/453.7c87bff2.chunk.js": "/logical-problems/static/js/453.7c87bff2.chunk.js",
     "index.html": "/logical-problems/index.html",
-    "main.f855e6bc.css.map": "/logical-problems/static/css/main.f855e6bc.css.map",
-    "main.13763c06.js.map": "/logical-problems/static/js/main.13763c06.js.map",
-    "453.9766625e.chunk.js.map": "/logical-problems/static/js/453.9766625e.chunk.js.map"
+    "main.9a726398.css.map": "/logical-problems/static/css/main.9a726398.css.map",
+    "main.bbefad69.js.map": "/logical-problems/static/js/main.bbefad69.js.map",
+    "453.7c87bff2.chunk.js.map": "/logical-problems/static/js/453.7c87bff2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.13763c06.js"
+    "static/css/main.9a726398.css",
+    "static/js/main.bbefad69.js"
   ]
 }
