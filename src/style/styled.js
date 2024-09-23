@@ -42,16 +42,24 @@ export const SubMenuLink = styled.a`
   padding: 5px;
 `;
 
-export const RightSectionHeading = styled.div`
-  font-weight: 600;
+export const SectionHeading = styled.h2`
+  margin: 0px;
   color: #3c2828;
-  font-size: 20px;
+  font-weight: 600;
   border-bottom: 1px solid rgba(60, 60, 67, 0.12);
   padding-bottom: 5px;
 `;
 
-export const RightSectionDescription = styled.p`
+export const SectionSubHeading = styled.h3`
+  margin: 10px 0;
   color: #3c2828;
+  font-weight: 600;
+  font-size: 16px;
+`;
+export const SectionDescription = styled.p`
+  margin: 5px 0;
+  color: #3c2828;
+  font-size: 14px;
 `;
 
 export const CodeSection = styled.code`

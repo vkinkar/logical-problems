@@ -1,9 +1,6 @@
 import "./App.css";
 import styled from "styled-components";
-import { HashRouter, Route, Routes } from "react-router-dom";
-import CategoryDashboard from './layouts/CategoryDashboard';
-import ReactDashboard from './layouts/ReactDashboard';
-import JavaScriptDashboard from './layouts/JavaScriptDashboard';
+import Dashboard from './layouts/Dashboard';
 
 const Wrapper = styled.header`
   padding:0 1em;
@@ -22,13 +19,7 @@ function App() {
       <Wrapper>
         <Title>Logical Problems Repository</Title>
       </Wrapper>
-      <HashRouter >
-        <Routes>
-          <Route exact path="/" element={<CategoryDashboard />} />
-          <Route exact path="/react-js" element={<ReactDashboard />} />
-          <Route exact path="/javascript" element={<JavaScriptDashboard />} />
-        </Routes>
-      </HashRouter>
+      <Dashboard/>
     </div>
   );
 }
