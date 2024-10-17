@@ -54,12 +54,12 @@ export const SectionSubHeading = styled.h3`
   margin: 10px 0;
   color: #3c2828;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
 `;
 export const SectionDescription = styled.p`
   margin: 5px 0;
   color: #3c2828;
-  font-size: 14px;
+  font-size: 16px;
 `;
 
 export const CodeSection = styled.code`
