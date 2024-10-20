@@ -9,6 +9,7 @@ import {
   SubMenuLink  
 } from "../style/styled";
 import RemoveDuplicates from '../documents/javascript/RemoveDuplicates';
+import MultidimensionalArray from "../documents/javascript/MultidimensionalArray"; 
 
 function JavaScriptDashboard() {
   return (
@@ -18,7 +19,7 @@ function JavaScriptDashboard() {
           JavaScript
           <SubMenu>
             <SubMenuLink href="#/javascript/remove-duplicates">Remove Duplicates</SubMenuLink>
-            <SubMenuLink href="#">Live Block</SubMenuLink>
+            <SubMenuLink href="#/javascript/multidimensional-array">Multidimentional Array</SubMenuLink>
             <SubMenuLink href="#">API Generation</SubMenuLink>
           </SubMenu>
         </MenuCategory>
@@ -36,6 +37,7 @@ function JavaScriptDashboard() {
           <Routes>
             <Route path="/" element={<RemoveDuplicates />} />
             <Route exact path="/javascript/remove-duplicates" element={<RemoveDuplicates />} />
+            <Route exact path="/javascript/multidimensional-array" element={<MultidimensionalArray />} />
           </Routes>
         </HashRouter>
       </RightSection>
